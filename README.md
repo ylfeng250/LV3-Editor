@@ -1,5 +1,13 @@
-# demo component
+## todo
 
-example-component
+[x] 拖拽移动
 
-intro component
+[] 缩放
+
+[] 旋转
+
+[] 成组
+
+[] 文本组件
+
+[] 图片组件
