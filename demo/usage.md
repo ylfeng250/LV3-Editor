@@ -8,13 +8,13 @@ order: 1
 ```jsx
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import LV3Editor from 'l-v3-editor';
+import ExampleComponent from 'example-component';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <LV3Editor />
+        <ExampleComponent />
       </div>
     );
   }

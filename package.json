@@ -1,5 +1,5 @@
 {
-	"name": "l-v3-editor",
+	"name": "example-component",
 	"version": "1.0.0",
 	"description": "intro component",
 	"files": [
@@ -30,27 +30,23 @@
 		"react",
 		"component"
 	],
-	"dependencies": {
-		"classnames": "^2.3.2",
-		"hox": "^2.0.0-rc.0",
-		"prop-types": "^15.5.8"
-	},
+	"dependencies": {},
 	"devDependencies": {
-		"@iceworks/spec": "^1.0.0",
-		"@types/react": "^17.0.2",
-		"@types/react-dom": "^17.0.2",
 		"build-plugin-component": "^1.0.0",
 		"build-scripts": "^1.1.1",
-		"eslint": "^7.0.0",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
-		"stylelint": "^13.7.2"
+		"@iceworks/spec": "^1.0.0",
+		"eslint": "^7.0.0",
+		"stylelint": "^13.7.2",
+		"@types/react": "^17.0.2",
+		"@types/react-dom": "^17.0.2"
 	},
 	"peerDependencies": {
 		"react": "^16 || ^17"
 	},
 	"componentConfig": {
-		"name": "LV3Editor",
+		"name": "ExampleComponent",
 		"title": "demo component",
 		"category": "Others"
 	},

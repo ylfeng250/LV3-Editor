@@ -1,5 +1,5 @@
 # demo component
 
-l-v3-editor
+example-component
 
 intro component

@@ -1,4 +1,7 @@
 /* write style here */
-.LV3Editor {
-
+.ExampleComponent {
+  width: 500px;
+  height: 500px;
+  border: 1px solid red ;
+  position: relative;
 }

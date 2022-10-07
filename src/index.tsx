@@ -1,19 +1,18 @@
-import React from "react";
-import Editor from "./components/Editor";
-import { ElementsStoreProvider } from "./model/useElementStore";
+import React, { useRef } from "react";
+import DragBox from "./components/DragBox";
 import "./index.css";
 
 interface ComponentProps {
-	/** Title for LV3Editor. */
+	/** Title for ExampleComponent. */
 	title: string;
 }
 
-export default function LV3Editor(props: ComponentProps) {
+export default function ExampleComponent(props: ComponentProps) {
 	const { title, ...others } = props;
 
 	return (
-		<ElementsStoreProvider>
-			<Editor id="test" key={"lv3-editor"} />
-		</ElementsStoreProvider>
+		<div className="ExampleComponent" {...others}>
+			<DragBox />
+		</div>
 	);
 }
